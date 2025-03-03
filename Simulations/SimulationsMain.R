@@ -278,7 +278,7 @@ for(beta_setting in beta_setting_vec){
 }
 
 
-## Plots for Appendix D
+## Plots for Appendix E
 
 strength_setting <- "strong"
 dim_setting <- "5D"
