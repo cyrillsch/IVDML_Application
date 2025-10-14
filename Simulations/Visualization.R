@@ -67,7 +67,7 @@ for(instr_setting in c("linear", "nonlinear")){
     if(instr_setting == "nonlinear"){
       plot_title <- paste("(het.)/(Z nonlin.) \n h = ", round(h, 2), sep = "")
     }
-    plot(aa, Vectorize(beta)(aa), type = "l", ylim = c(-1.3, 3), main = plot_title, xlab = "a", ylab = "beta(a)", cex.lab = 1.2)
+    plot(aa, Vectorize(beta)(aa), type = "l", ylim = c(-1.3, 3), main = plot_title, xlab = "v", ylab = "beta(v)", cex.lab = 1.2)
     rug(dml_result$A)
     for(i in 1:length(iv_vec)){
       iv <- iv_vec[i]
