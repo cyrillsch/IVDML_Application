@@ -143,8 +143,6 @@ for(i in 1:nrow(dim_ml_mat)){
 }
 
 
-
-
 ################################################################################
 # Strong IV case, where we vary N and fix the IV strength and (moderate)
 # error correlation
@@ -277,4 +275,3 @@ for(i in 1:nrow(dim_ml_mat)){
     dev.off()
   }
 }
-

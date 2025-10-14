@@ -16,9 +16,6 @@ instr_setting_vec <- c("linear", "nonlinear")
 beta_setting_vec <- c("hom", "het")
 
 
-
-
-
 ################################################################################
 # Weak IV case, where we vary the IV strength and fix N and (strong) 
 # error correlation
@@ -46,8 +43,6 @@ for(i in 1:nrow(dim_ml_mat)){
     }
   }
 }
-
-
 
 
 ################################################################################

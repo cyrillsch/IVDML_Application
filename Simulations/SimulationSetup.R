@@ -54,7 +54,6 @@ generate_data <- function(N, dim_setting, beta_setting, instr_setting, strength,
 }
 
 
-
 one_sim <- function(N, dim_setting, beta_setting, instr_setting, strength, error_dependence, ml_method, S_split){
   data_sim <- generate_data(N, dim_setting = dim_setting, beta_setting = beta_setting, instr_setting = instr_setting, strength = strength, error_dependence = error_dependence)
   dml_result <- fit_IVDML(Y = data_sim$Y, D = data_sim$D, Z = data_sim$Z, X = data_sim$X, A = data_sim$A, 
@@ -118,5 +117,3 @@ save_sim_results <- function(N_sim, n_cores, N, dim_setting, beta_setting, instr
                     "_errordep", error_dependence, ".RData")
   save(temp_result, file = filename)
 }
-
-
