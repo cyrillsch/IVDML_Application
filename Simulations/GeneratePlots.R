@@ -1,3 +1,7 @@
+################################################################################
+# The script "RunSimulations.R" needs to be run first!
+################################################################################
+
 # 1D with gam and 5D with xgboost
 dim_ml_mat <- rbind(c("1D", "gam"),
                     c("5D", "xgboost"))
